@@ -34,4 +34,8 @@ public final class Constants {
 
   public static final InvertedValue LEFT_DRIVE_INVERT_DIRECTION = InvertedValue.Clockwise_Positive;
   public static final InvertedValue RIGHT_DRIVE_INVERT_DIRECTION = InvertedValue.CounterClockwise_Positive;
+
+  // Pneumatics Constants
+  public static final int PCM_CAN_ID = 0;
+  public static final int SOLENOID_PORT_ID = 4;
 }
