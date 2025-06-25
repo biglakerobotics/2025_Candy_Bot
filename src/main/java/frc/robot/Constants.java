@@ -29,8 +29,10 @@ public final class Constants {
   // Drivetrain constants
   public static final double LEFT_DRIVE_VELOCITY = 1.0;
   public static final double RIGHT_DRIVE_VELOCITY = 1.0;
-  public static final double LEFT_SLOW_VELOCITY = .6;
-  public static final double RIGHT_SLOW_VELOCITY = .6;
+  public static final double LEFT_SLOW_VELOCITY = .5;
+  public static final double RIGHT_SLOW_VELOCITY = .5;
+
+  public static final double ROTATION_VELOCITY = .5;
 
   public static final InvertedValue LEFT_DRIVE_INVERT_DIRECTION = InvertedValue.Clockwise_Positive;
   public static final InvertedValue RIGHT_DRIVE_INVERT_DIRECTION = InvertedValue.CounterClockwise_Positive;

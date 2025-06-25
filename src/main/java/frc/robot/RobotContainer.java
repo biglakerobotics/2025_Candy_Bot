@@ -6,7 +6,7 @@ package frc.robot;
 
 import frc.robot.Constants.OperatorConstants;
 import frc.robot.commands.Autos;
-import frc.robot.commands.DualStickTankDriveCommand;
+import frc.robot.commands.ArcadeDrive;
 import frc.robot.commands.LaunchCandy;
 import frc.robot.subsystems.AirCompressor;
 import frc.robot.subsystems.Drivetrain;
@@ -34,7 +34,7 @@ public class RobotContainer {
   public RobotContainer() {
     // Configure the trigger bindings
     configureBindings();
-    m_Drivetrain.setDefaultCommand(new DualStickTankDriveCommand(m_driverController, m_Drivetrain));
+    m_Drivetrain.setDefaultCommand(new ArcadeDrive(m_driverController, m_Drivetrain));
   }
 
   /**
